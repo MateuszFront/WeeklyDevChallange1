@@ -5,15 +5,16 @@
 }
 body {
     background: linear-gradient(to top, red, blue);
-    height: 100%vh;
+    height: 100vh;
     font-size: 10px;
 }
 #wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-content: center;
+    align-items: center;
     flex-direction: row;
-    padding: 20px;
     box-sizing: border-box;
 }
 .container {
@@ -22,12 +23,17 @@ body {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
   }
 header {
   text-align: center;
   margin: 40px;
   opacity: 30%;
+}
+.foot {
+    text-align: center;
+    margin: 19px;
+    opacity: 30%; 
 }
 .form {
     padding: 10px;
@@ -107,6 +113,8 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-content: center;
+    align-items: center;
     margin: 10px;
     padding: 5px;
     width: 338px;
